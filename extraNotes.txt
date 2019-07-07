@@ -1,0 +1,6 @@
+Called from an empty ASP.NET Core empty project, inside the Startup.cs class in the Configure method. 
+
+app.Run(async (context) =>
+            {
+                await context.Response.WriteAsync("Hello World!");
+            }); 
